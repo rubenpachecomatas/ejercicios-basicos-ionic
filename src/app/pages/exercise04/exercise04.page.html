@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>exercise04</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input [(ngModel)]="name" placeholder="Enter name"></ion-input>
+  <ion-button (click)='hello()'>
+    Saludar
+  </ion-button>
+  <h1 *ngIf="salute == true">¡Hola {{nameToShow}}!</h1>
+</ion-content>

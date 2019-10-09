@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>exercise05</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input [(ngModel)]="max" type="number" placeholder="Enter the max"></ion-input>
+  <ion-input [(ngModel)]="min" type="number" placeholder="Enter the min"></ion-input>
+  <ion-button (click)="generateRandom()">Generate a random number</ion-button>
+
+  <h1>{{n}}</h1>
+</ion-content>
